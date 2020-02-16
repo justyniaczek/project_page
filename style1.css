@@ -1,0 +1,130 @@
+.btn{
+	position:absolute;
+	transform: translate(-50%, -50%);
+	font-size: 12px;
+	color:#808080;
+	padding: 8px 15px;
+	cursor:pointer;
+}
+#box{	overflow:hidden;
+	width: 500px;
+
+	background: #f1f1f1;
+	box-shadow: 0 0 20px black;
+	border-radius:8px;
+	position:absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 9999;
+	padding:10px;
+	text-align: center;	
+}
+#box span{
+	color: #2ecc71;
+	font-size: 40px;
+	margin:20px 0;
+	display:block;
+	margin:20px 0;
+}
+.close{
+	font-size: 10px;
+	color:white;
+	padding: 10px 30px;
+	cursor:pointer;
+	background:#3498db;
+}
+
+#wrapper {
+  width: 30%;
+  margin: 50px auto;
+  padding: 50px;
+  background: #D7FBFF;
+}
+form {
+  margin: 30px auto;
+}
+.textInput {
+  border: none;
+  height: 28px;
+  margin: 2px;
+  border: 1px solid #6B7363;
+  font-size: 1.2em;
+  padding: 5px;
+  width: 95%;
+}
+.textInput:focus {
+  outline: none;
+}
+.btnc {
+  width: 98.6%;
+  border: none;
+  margin-top: 5px;
+  color: white;
+  background-color: #3b5998;
+  border-radius: 5px;
+  padding: 12px;
+}
+
+
+.form-control{
+	height:200px;
+	border-style: solid;
+}
+textarea {
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+    padding:0 5px;
+    vertical-align:top;
+    border:1px solid #54A5DA;
+    height:27px;
+    background:#fff;
+    font-size:13px;
+    font-family:"Open Sans", sans-serif;
+    color:#666;
+    display:block;
+    width:100%;
+}
+textarea {
+   height:150px;
+   resize:vertical;
+   line-height:1.4em;
+   resize:vertical;
+}
+
+input[type=text] {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+.button {
+	width:100px;
+	height:27px;
+	background-color: white;
+  color: black;
+  border: 2px solid #4CAF50; /* Green */
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+
+.buttn{
+display:inline-block;
+padding:0.5em 3em;
+border:0.16em solid #FFFFFF;
+margin:0 0.3em 0.3em 0;
+box-sizing: border-box;
+text-decoration:none;
+text-transform:uppercase;
+font-family:'Roboto',sans-serif;
+font-weight:400;
+color:#FFFFFF;
+text-align:center;
+transition: all 0.15s;
+}
